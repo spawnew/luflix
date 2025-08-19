@@ -40,7 +40,7 @@ const VistaPeli = () => {
     useEffect(()=> {
     
     obtenertodas()
-     
+   
     }, [pag])
     
   return (
