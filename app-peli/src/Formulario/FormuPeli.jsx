@@ -16,17 +16,17 @@ const FormPeli = ({ obtener }) => {
         setForm({ peli:"" })
     }
     return (
-        <div className='bg-blue-300 m-2 p-2 rounded-lg shadow- text-black flex flex-col justify-center align-center '>
+        <div className='bg-blue-950 w-full m-2 p-2 rounded-lg flex flex-col items-center justify-center'>
 
           
-                 <h3 className='text-blue-950'><b>Ingresa el nombre de una peli</b> </h3>
+                 <h3 className='text-amber-100'><b>Ingresa el nombre de una peli</b> </h3>
 
             
 
 
 
             <form onSubmit={handleSubmit}>
-                <input className='bg-amber-50 rounded-b-sm p-1 border-2 border-black' type="text"required onChange={handleChange} name="peli" value={form.peli} placeholder='ingrese una peli'>
+                <input className='bg-black text-amber-100 rounded-b-sm p-1 border-2 border-black' type="text"required onChange={handleChange} name="peli" value={form.peli} placeholder='Ingresa una peli'>
                 </input>
                
 
