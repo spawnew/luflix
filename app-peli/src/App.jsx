@@ -2,19 +2,22 @@
 import './App.css'
 import VistaPeli from './Componentes/VistaPeli'
 import Navbar from './Componentes/Navbar'
-import {BrowserRouter , Routes} from 'react-router-dom'
+import Detalles from './Componentes/Detalles'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import VistaFiltrada from './Componentes/VistaFiltrada'
 function App() {
 
 
   return (
     <>
-      <Navbar />
+     
       <BrowserRouter>
       
-        
+         <Navbar />
         <Routes>
-
-          <VistaPeli />
+<Route path='/' element={<VistaPeli />} />
+          <Route path='/detalles/:id' element={<Detalles />} /> 
+         <Route path='/buscar/' element={<VistaFiltrada />} />   
         </Routes>
       
       

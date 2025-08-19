@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Pelicula = ({id,titulo,imagen}) => {
   return (
@@ -8,7 +9,7 @@ const Pelicula = ({id,titulo,imagen}) => {
       <p className='text-1xl '><b>{titulo }</b></p>
           <img className='w-100' src={`https://image.tmdb.org/t/p/w500/${imagen}`} alt={titulo} />
 
-
+          <Link to={`/detalles/${id}`} className='bg-blue-700 p-2 m-2 rounded-xl text-amber- hover:bg-blue-400'>Ver Detalles</Link>
     </div>
   )
 }
