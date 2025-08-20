@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Pelicula = ({id,titulo,imagen}) => {
   return (
-      <div className=' hover:bg-blue-950 hover:border-blue-500 hover:border-2 flex flex-col items-center h-fit w-fit just m-2 p-2 bg-gray-900 rounded-lg shadow-lg'>
+      <div className='transition-transform duration-300 hover:scale-105 hover:opacity-80 cursor-pointer hover:bg-blue-950 hover:border-blue-500 hover:border-2 flex flex-col items-center h-fit w-fit just m-2 p-2 bg-gray-900 rounded-lg shadow-lg'>
           
 
       <p className='text-1xl font-extrabold '><b>{titulo }</b></p>
