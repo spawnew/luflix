@@ -13,6 +13,9 @@ import logo from '../assets/logo.jpg'
                   </Link>
                     <Link  to="/buscar">
                   <button className='p-4 border-b-blue-900 bg-blue-700 rounded-2xl hover:bg-blue-400 hover:text-md hover:text-blue-900 font-extrabold'>Buscar</button>
+        </Link>
+        <Link  to="/favoritos">
+                  <button className='p-4 border-b-blue-900 bg-blue-700 rounded-2xl hover:bg-blue-400 hover:text-md hover:text-blue-900 font-extrabold'>Favoritos</button>
               </Link>
                 <Link to="/contacto">
                    <button className='p-4 border-b-blue-900 bg-blue-700 rounded-2xl hover:bg-blue-400 hover:text-md hover:text-blue-900 font-extrabold'>Contacto</button>

@@ -1,9 +1,11 @@
-import React, { useEffect } from 'react'
+import  { useEffect } from 'react'
 import { useState } from 'react'
-
+import{PeliContext} from '../Context/PeliContext'
+import { useContext } from 'react'
 import Pelicula from './Pelicula'
+
 const VistaPeli = () => {
-  
+  const { agregar } = useContext(PeliContext)
     const apiKEY = "ade9764f282518fd88d5284bab1d0325"
 
     const [todaspelicula, setPelicula] = useState([])
@@ -33,8 +35,7 @@ const VistaPeli = () => {
         }
         }
   
-     
-
+  
 
    
     useEffect(()=> {
@@ -42,7 +43,7 @@ const VistaPeli = () => {
     obtenertodas()
    
     }, [pag])
-    
+  
   return (
       <div >
           
@@ -57,16 +58,29 @@ const VistaPeli = () => {
                                   id={peli.id}
                                   titulo={peli.title}
                                   imagen={peli.backdrop_path}
-                      
+                                    agregar={agregar}
                       
                               />
                           </div>
                       )
                   })
               }
-          
+    
            
           </div>
+           
+       
+              
+                 
+                             
+                    
+                      
+                
+              
+          
+           
+         
+
 
       
       
