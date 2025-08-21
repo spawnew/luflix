@@ -8,7 +8,7 @@ const Favoritos = () => {
   
  
     return (
-        <div className='bg-gray-900  flex flex-col items-center justify-center p-4'>
+        <div className='bg-gray-900  flex flex-col items-center justify-center p_2'>
             
             {state && state.length > 0 ? state.map((peli) => {
                 return (
