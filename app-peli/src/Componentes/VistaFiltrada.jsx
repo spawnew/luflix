@@ -62,7 +62,7 @@ console.log(pelicula)
                   }) : <div className='flex flex-col items-center justify-center p-4'>
                         <p className='text-2xl'><b>Busque su pelicula favorita </b></p>
                         <Link to="/">
-                        <img className='border-2 border-blue-800 hover:w-50 hover:border-blue-400' src={logo}></img>
+                        <img className='border-2 border-blue-800  hover:border-blue-900' src={logo}></img>
                     </Link>
                     
                     
