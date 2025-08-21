@@ -7,7 +7,7 @@ const Pelicula = ({ id, titulo, imagen,agregar }) => {
     : logo;
 
   return (
-    <div className=" w-fit h-fit flex-wrap transition-transform duration-300 hover:scale-105 hover:opacity-80 cursor-pointer hover:bg-blue-950 hover:border-blue-500 hover:border-2 flex flex-col items-center  m-2 p-4 bg-gray-900 rounded-lg shadow-lg">
+    <div className=" w-fit h-fit sm:flex-col transition-transform duration-300 hover:scale-105 hover:opacity-80 cursor-pointer hover:bg-blue-950 hover:border-blue-500 hover:border-2 flex flex-col items-center  m-2 p-4 bg-gray-900 rounded-lg shadow-lg">
       
       <p className="text-lg font-extrabold text-amber-200 mb-2 text-center">
         {titulo}

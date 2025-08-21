@@ -5,7 +5,7 @@ import logo from '../assets/logo.jpg'
   return (
       <div>
           
-          <nav className=' w-screen flex flex-row justify-between align centers bg-gray-900  shadow-lg  p-4 '>
+         <nav className='flex flex-col md:flex-row md:items-center w-screen justify-between bg-gray-900 shadow-lg p-4'>
              
               
                   <Link  to="/">
