@@ -39,9 +39,9 @@ console.log(pelicula)
   
   
     return (
-      <div className='bg-gray-900 w-screen h-screen flex flex-col items-center justify-center p-4'>
+      <div className='bg-gray-900 h-screen flex flex-col items-center justify-center '>
              
-          <div className='flex flex-col w-screen h-100  items-center justify-center p-4 rounded-lg shadow-lg'>
+          <div className='flex flex-col w-200  items-center justify-center  rounded-lg shadow-lg'>
               <FormuPeli obtener={obtener} /> 
           </div>
              

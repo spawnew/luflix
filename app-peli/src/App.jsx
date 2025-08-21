@@ -8,6 +8,8 @@ import VistaFiltrada from './Componentes/VistaFiltrada'
 import Contacto from './Componentes/Contacto'
 import { PeliProvider } from './Context/PeliContext';
 import Favoritos from './Componentes/Favoritos'
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 function App() {
 
 
@@ -25,7 +27,17 @@ function App() {
           <Route path='/contacto/' element={<Contacto />} />
             <Route path='/favoritos/' element={<Favoritos />} />
             
-        </Routes>
+          </Routes>
+             
+          <ToastContainer 
+            position="top-right"
+            autoClose={2000}
+            hideProgressBar={false}
+            closeOnClick
+            pauseOnHover
+            draggable
+            theme="dark"
+          />
       
       </PeliProvider>
       
