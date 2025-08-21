@@ -7,7 +7,7 @@ export const PeliContext = createContext(null);
 export const PeliProvider = ({ children }) => {
     const [state, dispatch] = useReducer(Redupeli, initialState);
     const agregar = (titulo, imagen,id) => {
-    
+      
     
     
         dispatch({
