@@ -25,7 +25,7 @@ const Pelicula = ({ id, titulo, imagen,agregar }) => {
       >
         Ver Detalles
       </Link>
-      <button onClick={()=>agregar(titulo,image,id)} className="bg-blue-950 p-2 mt-3 rounded-xl text-amber-200 font-bold border border-transparent hover:bg-blue-400 hover:text-gray-900 hover:border-blue-700 transition-colors duration-300">
+      <button onClick={()=>agregar(titulo,imagen,id)} className="bg-blue-950 p-2 mt-3 rounded-xl text-amber-200 font-bold border border-transparent hover:bg-blue-400 hover:text-gray-900 hover:border-blue-700 transition-colors duration-300">
         Agregar a Favoritos
         </button>
     </div>

@@ -45,9 +45,9 @@ const VistaPeli = () => {
     }, [pag])
   
   return (
-      <div >
-          
-             
+      <div className='bg-gray-900  flex flex-col items-center justify-center p-4'>
+          <h1 className='font-serif text-amber-50 p-1'>Bienvenido a Luflix</h1>
+             <h2 className= 'font-serif text-amber-50 p-1'>Su buscador de peliculas </h2>
           <div className='flex flex-wrap justify-center'>
        
               
