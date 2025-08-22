@@ -21,7 +21,7 @@ console.log(pelicula)
     }
     const obtenerPelis = async () => {
         try {
-            const response = await fetch(`${baseURL}${pelicula}&api_key=${apiKEY}`)
+            const response = await fetch(`${baseURL}${pelicula}&language=es-ES&api_key=${apiKEY}`)
             const data = await response.json()
             setinfo(data)
         } catch (error) {

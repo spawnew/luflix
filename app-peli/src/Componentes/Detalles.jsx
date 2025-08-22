@@ -10,7 +10,7 @@ const [pelicula, setPelicula] = useState([])
  const obtenertodas = async () => {
           console.log(id)
         try {
-          const response = await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${apiKEY}`)
+          const response = await fetch(`https://api.themoviedb.org/3/movie/${id}&language=es-ES&?api_key=${apiKEY}`)
             const data = await response.json()
          console.log(data)
             setPelicula(data)
