@@ -86,10 +86,10 @@ const VistaPeli = () => {
       
       
           <div className='flex items-center w-full justify-center m-2 p-2  rounded-lg'>
-                 <button className='hover:bg-blue-900 p-1 bg-black border-2 border-blue-500 text-amber-200 rounded-2xl font-bold' onClick={restarPagina}>Anterior  </button>
+                 <button className='hover:bg-blue-900 p-1 bg-blue-950 border-2 border-blue-500 text-amber-200 rounded-2xl font-bold' onClick={restarPagina}>Anterior  </button>
           
           <p className=' text-amber-200 m-3 p-1 font-extrabold'>{pag }</p>
-           <button className='hover:bg-blue-900 p-1 bg-black border-2 border-blue-500  text-amber-200 rounded-2xl font-bold' onClick={sumarPagina}>Siguiente  </button>
+           <button className='hover:bg-blue-900 p-1 bg-blue-950 border-2 border-blue-500  text-amber-200 rounded-2xl font-bold' onClick={sumarPagina}>Siguiente  </button>
       </div>
         
       </div>
